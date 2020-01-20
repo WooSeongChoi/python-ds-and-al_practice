@@ -59,3 +59,5 @@ if __name__ == '__main__':
     print(f'dequeue : {queue.dequeue()}')
     print(f'peek : {queue.peek()}')
     queue.print()
+    queue.enqueue(11)
+    queue.print()
